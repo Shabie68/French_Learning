@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/family"
+        style="@style/CategoryStyle"
+        android:background="@color/category_family"
+        android:text="@string/family_member"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/animals"
+        style="@style/CategoryStyle"
+        android:background="@color/category_animals"
+        android:text="@string/animals"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/numbers"
+        style="@style/CategoryStyle"
+        android:background="@color/category_numbers"
+        android:text="@string/numbers"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/body_parts"
+        style="@style/CategoryStyle"
+        android:background="@color/category_parts_of_body"
+        android:text="@string/parts_of_body"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_phrases"
+        style="@style/CategoryStyle"
+        android:id="@+id/phrases"
+        android:text="@string/phrases"/>
+
+</LinearLayout>

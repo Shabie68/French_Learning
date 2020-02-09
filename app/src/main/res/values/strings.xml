@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">French Learning</string>
+    <string name="family_member">Family Member</string>
+    <string name="animals">Animals</string>
+    <string name="numbers">Numbers</string>
+    <string name="parts_of_body">Parts of Body</string>
+    <string name="phrases">Phrases</string>
+    <string name="french">French</string>
+    <string name="english">English</string>
+</resources>
